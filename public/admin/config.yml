@@ -1,10 +1,11 @@
 backend:
-  name: git-gateway
-#  name: github
-#  repo: AmaseCocoa/blog.amase.xyz #replace with your githu repo
-#  branch: main
-#  squash_merges: true
-#  open_authoring: true
+#  name: git-gateway
+  name: github
+  repo: AmaseCocoa/blog.amase.xyz
+  branch: main
+  squash_merges: true
+  open_authoring: true
+  use_graphql: true
 
 # local_backend: true
 
@@ -25,8 +26,8 @@ collections:
     preview_path: post/{{slug}}
     fields:
       - { name: title, label: Title }
-      - { name: description, label: Description }
-      - { name: image, label: Image, widget: image }
+      - { name: description, label: Description, default: "" }
+      - { name: image, label: Image, widget: image, default: "" }
       - { name: published, label: Date, widget: datetime }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { name: category, label: Category }
