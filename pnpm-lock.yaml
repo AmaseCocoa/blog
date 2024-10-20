@@ -33,6 +33,9 @@ importers:
       '@fontsource/roboto':
         specifier: ^5.0.14
         version: 5.0.14
+      '@iconify-json/icon-park-outline':
+        specifier: ^1.2.1
+        version: 1.2.1
       '@swup/astro':
         specifier: ^1.4.1
         version: 1.4.1(@types/babel__core@7.20.5)
@@ -1096,6 +1099,9 @@ packages:
 
   '@iconify-json/fa6-solid@1.1.24':
     resolution: {integrity: sha512-ovO4kIW3CjoY36/QUTORg+7ZVlVpJqGSck+FUsqrvVJAr9MPeh3QN2UBnc9zyny41znxs7Kdc0Oz6aun4UUsyw==}
+
+  '@iconify-json/icon-park-outline@1.2.1':
+    resolution: {integrity: sha512-cNvUJL9mk3xOfyffErQuxvyRCWk0hCx1M8AEyGmNXjqIfgPC25OChCstt0KFB3IULS+hw9es+uA7pvVPmQh+AA==}
 
   '@iconify-json/material-symbols@1.1.89':
     resolution: {integrity: sha512-lG/eoYGbXduksHNirl4eQ3Yh0mWX85WwmQgBjz4ebHp1g5QVfEK0W+0K83p9F0itiDXlCHcPwhFz4GHsPiCbiA==}
@@ -5954,6 +5960,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/fa6-solid@1.1.24':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/icon-park-outline@1.2.1':
     dependencies:
       '@iconify/types': 2.0.0
 
