@@ -7,7 +7,7 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Amase's Blog',
+  title: "Amase's Blog",
   subtitle: '色々書きます',
   lang: 'ja',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
