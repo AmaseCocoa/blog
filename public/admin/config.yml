@@ -1,0 +1,34 @@
+backend:
+  name: git-gateway
+#  name: github
+#  repo: AmaseCocoa/blog.amase.xyz #replace with your githu repo
+#  branch: main
+#  squash_merges: true
+#  open_authoring: true
+
+# local_backend: true
+
+# backend:
+#   name: git-gateway
+
+publish_mode: editorial_workflow
+media_folder: public/images
+public_folder: /images
+site_url: "https://amase.xyz/"
+
+collections:
+  - name: post
+    label: Posts
+    folder: src/content/posts
+    create: true
+    format: frontmatter
+    preview_path: post/{{slug}}
+    fields:
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: image, label: Image, widget: image }
+      - { name: published, label: Date, widget: datetime }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { name: category, label: Category }
+      - { name: tags, label: Tags, widget: list }
+      - { name: body, label: Body, widget: markdown }

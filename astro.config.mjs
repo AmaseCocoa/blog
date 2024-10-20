@@ -33,7 +33,7 @@ const oklchToHex = (str) => {
 export default defineConfig({
   site: "https://amase.xyz/",
   base: "/",
-  trailingSlash: "always",
+  trailingSlash: "never",
   integrations: [
     tailwind(),
     swup({
