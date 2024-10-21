@@ -1,4 +1,5 @@
 import type {
+  CommentConfig,
   LicenseConfig,
   NavBarConfig,
   ProfileConfig,
@@ -11,7 +12,7 @@ export const siteConfig: SiteConfig = {
   subtitle: '色々書きます',
   lang: 'ja',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
-    hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+    hue: 0,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
     fixed: false,     // Hide the theme color picker for visitors
   },
   banner: {
@@ -68,4 +69,21 @@ export const licenseConfig: LicenseConfig = {
   enable: true,
   name: 'CC BY-NC-SA 4.0',
   url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+}
+
+export const commentConfig: CommentConfig = {
+  giscus: {
+    repo: 'AmaseCocoa/blog',
+    repoId: 'R_kgDONDDxwA',
+    category: 'Announcements',
+    categoryId: 'DIC_kwDONDDxwM4CjjMG',
+    mapping: 'og:title',
+    strict: '0',
+    reactionsEnabled: '1',
+    emitMetadata: '1',
+    inputPosition: 'top',
+    theme: 'light',
+    lang: 'ja',
+    loading: 'lazy',
+  }
 }
