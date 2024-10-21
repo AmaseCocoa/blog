@@ -26,8 +26,8 @@ collections:
     preview_path: post/{{slug}}
     fields:
       - { name: title, label: Title }
-      - { name: description, label: Description, default: "" }
-      - { name: image, label: Image, widget: image, default: "" }
+      - { name: description, label: Description, required: false }
+      - { name: image, label: Image, widget: image, required: false }
       - { name: published, label: Date, widget: datetime }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { name: category, label: Category }
