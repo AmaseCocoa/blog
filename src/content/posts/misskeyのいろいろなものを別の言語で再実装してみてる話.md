@@ -11,6 +11,8 @@ tags:
 > 
 > [← 20日目の記事](https://yumechi.jp/ja/blog/2024/misskey%E3%83%8F%E3%83%BC%E3%83%89%E3%83%8B%E3%83%B3%E3%82%B0/) | [22日目の記事 →](#)
 
+<iframe src="https://adventar.org/calendars/10208/embed" width="620" height="362" frameborder="0" loading="lazy"></iframe>
+
 [Media Proxy for Misskey](https://github.com/misskey-dev/media-proxy)や[summaly](https://github.com/misskey-dev/summaly)をいろんな言語で再実装してみてる話です。駄文ですが許してください
 
 もともとはAPIラッパーの話をしようと思ってたんですが、色々問題が起こりすぎて間に合いそうになかったので変えました
@@ -54,4 +56,3 @@ GIFがおかしくなる[問題](https://misskey.io/notes/9ycexc1k071y0gdb)は�
 #### summaly-py
 ::github{repo="AmaseCocoa/summaly-py"}
 
-<iframe src="https://adventar.org/calendars/10208/embed" width="620" height="362" frameborder="0" loading="lazy"></iframe>
