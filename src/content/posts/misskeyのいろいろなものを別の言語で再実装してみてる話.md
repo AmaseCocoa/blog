@@ -9,7 +9,7 @@ tags:
 ---
 > この記事は[Misskey Advent Calendar 2024](https://adventar.org/calendars/10208) 21日目の記事です
 > 
-> [← 20日目の記事](https://yumechi.jp/ja/blog/2024/misskey%E3%83%8F%E3%83%BC%E3%83%89%E3%83%8B%E3%83%B3%E3%82%B0/) | [22日目の記事 →](#)
+> [← 20日目の記事](https://yumechi.jp/ja/blog/2024/misskey%E3%83%8F%E3%83%BC%E3%83%89%E3%83%8B%E3%83%B3%E3%82%B0/) | [22日目の記事 →](https://note.com/cv_k/n/n42cfe0d67712)
 
 <iframe src="https://adventar.org/calendars/10208/embed" width="620" height="362" frameborder="0" loading="lazy"></iframe>
 
